@@ -37,7 +37,7 @@ injectGlobal`
     }
 `
 
-const wrapper=document.getElementById('#app')
+const wrapper=document.getElementById('app')
 
 const App = () => (
     <BrowserRouter>
