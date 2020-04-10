@@ -1,0 +1,35 @@
+{
+    "name": "react-website",
+    "version": "1.0.0",
+    "description": "Sean's Portfolio Website",
+    "engines": {
+        "node": ">=9.x",
+        "npm": ">=5.x",
+        "yarn": ">=1.x.x"
+    },
+    "keywords": [
+        "react",
+        "reactjs",
+        "styled-components",
+        "website"
+    ],
+    "main": "./src/index.js",
+    "scripts": {
+        "build": "parcel build ./src/index.html",
+        "start": "parcel ./src/indexl.html -p 1337"
+    },
+    "author": "Sean Roberts",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.1.2",
+        "styled-components": "^5.1.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "parcel-bundler": "^1.12.4"
+    }
+}
