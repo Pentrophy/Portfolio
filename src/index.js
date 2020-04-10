@@ -37,7 +37,7 @@ injectGlobal`
     }
 `
 
-const wrapper=document.getElementById('app')
+const container=document.querySelector('#app')
 
 const App = () => (
     <BrowserRouter>
@@ -45,4 +45,4 @@ const App = () => (
     </BrowserRouter>
 )
 
-ReactDOM.render(<App />,wrapper)
+ReactDOM.render(<App />,container)
